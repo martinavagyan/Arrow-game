@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style.css" type="text/css" rel="stylesheet"/>
+		<link href="bootstrap.css" type="text/css" rel="stylesheet"/>
+		<meta charset="UTF-8"/>
+		<title>game</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1 class="title">Arrow</h1>
+				<div class="headMeter">0<span class="score best">BEST</span></div>
+				<div class="headMeter">0<span class="score">SCORE</span></div>
+			</div>
+			<div class="clear"></div>
+			<div class="aboveGame">
+				<p class="fll">Join the two dotes by moving <b>possibly less arrows!</b> </p>
+				<a class="newGame" onclick="start()">New Game</a>
+			</div>	
+			<div class="clear"></div>
+			<div id="container" class="main"></div>
+			<div class="clear"></div>
+		</div>
+		<script type="text/Javascript" src="js/custom.js"></script>		
+		<script type="text/Javascript" src="js/game.js"></script>	
+	</body>
+</html>
